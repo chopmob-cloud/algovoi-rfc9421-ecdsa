@@ -1,0 +1,8 @@
+algovoi-rfc9421-ecdsa
+Copyright 2026 AlgoVoi
+
+This product includes software developed by AlgoVoi.
+Licensed under the Apache License, Version 2.0.
+
+ECDSA (P-256 / P-384) provider add-on for the AlgoVoi RFC 9421 verifier.
+Depends on the `cryptography` library for elliptic-curve operations.

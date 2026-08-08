@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algovoi-rfc9421-ecdsa"
+version = "0.1.0"
+description = "ECDSA (P-256/P-384) provider add-on for the AlgoVoi RFC 9421 verifier"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "AlgoVoi", email = "chopmob@gmail.com" }]
+keywords = ["rfc9421", "ecdsa", "p-256", "p-384", "http-signatures", "add-on"]
+dependencies = [
+    "algovoi-rfc9421-verifier>=0.4.2",
+    "cryptography>=41",
+]
+
+[project.urls]
+Homepage = "https://github.com/chopmob-cloud/algovoi-rfc9421-ecdsa"
+Repository = "https://github.com/chopmob-cloud/algovoi-rfc9421-ecdsa"
+
+[tool.setuptools]
+packages = ["algovoi_rfc9421_ecdsa"]
