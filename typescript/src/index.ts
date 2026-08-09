@@ -1,5 +1,5 @@
 /**
- * @algovoi/rfc9421-ecdsa — ECDSA (P-256/P-384) add-on for @algovoi/rfc9421-verifier.
+ * @algovoi/rfc9421-ecdsa: ECDSA (P-256/P-384) add-on for @algovoi/rfc9421-verifier.
  *
  * A PURE add-on: it does not modify the core verifier. Use verifyRequest for a
  * drop-in that accepts Ed25519 (delegated to the untouched verifier) plus the

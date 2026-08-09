@@ -61,7 +61,7 @@ function makeVerifier(
     if (strictLowS && s > n / 2n) return false;
     const pk = toBytes(publicKey);
     // Validate the public-key point is on the curve and not the identity, and
-    // raise (parity with the Python provider) — noble's verify() returns false
+    // raise (parity with the Python provider), noble's verify() returns false
     // for an invalid point rather than throwing, so we check explicitly.
     try {
       curve.ProjectivePoint.fromHex(pk);
@@ -71,7 +71,7 @@ function makeVerifier(
     const msgHash = new Uint8Array(
       createHash(hashName).update(Buffer.from(signingBase, "utf8")).digest(),
     );
-    // lowS:false — we do our own optional strict check above so default
+    // lowS:false, we do our own optional strict check above so default
     // behaviour matches the Python provider (accept high-s for interop).
     return curve.verify(signatureBytes, msgHash, pk, { lowS: false });
   };

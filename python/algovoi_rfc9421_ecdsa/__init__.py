@@ -1,4 +1,4 @@
-"""algovoi-rfc9421-ecdsa — ECDSA (P-256/P-384) add-on for the AlgoVoi RFC 9421 verifier.
+"""algovoi-rfc9421-ecdsa: ECDSA (P-256/P-384) add-on for the AlgoVoi RFC 9421 verifier.
 
 A PURE add-on: it does not modify or re-publish the core verifier. It provides a
 drop-in `verify_request` that accepts Ed25519 (delegated verbatim to the untouched
