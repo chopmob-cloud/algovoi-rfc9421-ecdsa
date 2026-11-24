@@ -1,7 +1,7 @@
 # algovoi-rfc9421-ecdsa
 
 
-[![PyPI](https://img.shields.io/pypi/v/algovoi-rfc9421-ecdsa)](https://pypi.org/project/algovoi-rfc9421-ecdsa/)
+[![PyPI](https://img.shields.io/pypi/v/algovoi-rfc9421-ecdsa)](https://pypi.org/project/algovoi-rfc9421-ecdsa/) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/@algovoi/rfc9421-ecdsa)](https://www.npmjs.com/package/@algovoi/rfc9421-ecdsa)
 
 ECDSA (P-256 / P-384) add-on for the
