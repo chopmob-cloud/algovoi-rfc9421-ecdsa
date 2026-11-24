@@ -1,5 +1,9 @@
 # algovoi-rfc9421-ecdsa
 
+
+[![PyPI](https://img.shields.io/pypi/v/algovoi-rfc9421-ecdsa)](https://pypi.org/project/algovoi-rfc9421-ecdsa/)
+[![npm](https://img.shields.io/npm/v/@algovoi/rfc9421-ecdsa)](https://www.npmjs.com/package/@algovoi/rfc9421-ecdsa)
+
 ECDSA (P-256 / P-384) add-on for the
 [AlgoVoi RFC 9421 verifier](https://pypi.org/project/algovoi-rfc9421-verifier/).
 
